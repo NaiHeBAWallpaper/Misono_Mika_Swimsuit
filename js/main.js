@@ -35,110 +35,110 @@ const HAS_A = { eye: false, point: true };
 // All voicelines are manually timed for start point and duration. This may not be the most optimized solution, but works for all intents and purposes.
 
 const AUDIO_DETAIL = [
-	{
-		time: 18000,
-		count: 2,
-		startTimes: [500, 5400],
-		dialog: {
-			Japanese: [
-				"ねえ、先生。",
-				"私、この景色を先生と見られて、よかった。"
-			],
-			English: [
-				"Hey, Sensei.",
-				" I'm so glad I could see this view with you."
-			],
-			Chinese: [
-				"那个，老师。",
-				"我很高兴，能和老师一起看到这片景色。"
-			]
-		}
-	},
-	{
-		time: 14000,
-		count: 3,
-		startTimes: [2000, 4600, 8000],
-		dialog: {
-			Japanese: [
-				"心配事も…",
-				"将来の悩みも…",
-				"不安も、まだ、残ってる。"
-			],
-			English: [
-				"All my worries...",
-				" My troubles about the future...",
-				"And all my anxieties... they're still here."
-			],
-			Chinese: [
-				"那些烦心事……",
-				"对未来的烦恼……",
-				"还有那些不安……都还留存在心里。"
-			]
-		}
-	},
-	{
-		time: 17000,
-		count: 3,
-		startTimes: [500, 2700, 6200],
-		dialog: {
-			Japanese: [
-				"でも…",
-				"こんな星空を見ちゃったらさ、",
-				"全部、ちっぽけなことなんじゃないかなって、そんな気がするんだ。"
-			],
-			English: [
-				"But...",
-				"When you see a starry sky like this,",
-				" I get the feeling that maybe all of it is just... insignificant."
-			],
-			Chinese: [
-				"但是……",
-				"当看到这样一片星空时，",
-				"我就感觉，那所有的一切，或许都只是微不足道的小事吧。"
-			]
-		}
-	},
-	{
-		time: 21000,
-		count: 3,
-		startTimes: [500, 5500, 15700],
-		dialog: {
-			Japanese: [
-				"先生、言ってくれたよね？",
-				"「今この瞬間が、これからもずっと…",
-				"私を支えてくれる」って。"
-			],
-			English: [
-				"Sensei, you told me, didn't you?",
-				`"That this very moment, from now and forever...`,
-				`...will be what supports me."`
-			],
-			Chinese: [
-				"老师，你对我说过的吧？",
-				`“说此时此刻，在今后会永远……`,
-				` ……一直支撑着我。”`
-			]
-		}
-	},
-	{
-		time: 11000,
-		count: 2,
-		startTimes: [500, 3100],
-		dialog: {
-			Japanese: [
-				"だから…",
-				"私も、幸せになるよ。"
-			],
-			English: [
-				" So...",
-				" I'll be happy, too."
-			],
-			Chinese: [
-				"所以……",
-				"我也……会变得幸福的。"
-			]
-		}
-	}
+    {
+        time: 18000,
+        count: 2,
+        startTimes: [500, 5400],
+        dialog: {
+            Japanese: [
+                "ねえ、先生。",
+                "私……この景色を先生と見られてよかった。"
+            ],
+            English: [
+                "Hey, Sensei~",
+                "I'm so, so glad... that I could see this view with you."
+            ],
+            Chinese: [
+                "呐，老师。",
+                "我能和老师一起看到这片景色…真的，太好了。"
+            ]
+        }
+    },
+    {
+        time: 14000,
+        count: 3,
+        startTimes: [2000, 4600, 8000],
+        dialog: {
+            Japanese: [
+                "心配事も――",
+                "将来の悩みも――",
+                "不安も――まだ、残ってる。"
+            ],
+            English: [
+                "All the things I worry about...",
+                "All my fears for the future...",
+                "And my anxieties... they're all still here, you know."
+            ],
+            Chinese: [
+                "心里的烦恼――",
+                "未来的忧愁――",
+                "还有各种不安――其实都还留着呢。"
+            ]
+        }
+    },
+    {
+        time: 17000,
+        count: 3,
+        startTimes: [500, 2700, 6200],
+        dialog: {
+            Japanese: [
+                "でも……。",
+                "こんな星空を見ちゃったらさ。",
+                "……全部、ちっぽけなことなんじゃないかなって。そんな気がするんだ。"
+            ],
+            English: [
+                "But...",
+                "When I get to see a starry sky like this, you know?",
+                "...It just makes me feel like maybe none of it really matters."
+            ],
+            Chinese: [
+                "但是呢……。",
+                "只要看到这样一片星空呀……",
+                "……就感觉，那些事全都变得好渺小，好像不算什么了。"
+            ]
+        }
+    },
+    {
+        time: 21000,
+        count: 3,
+        startTimes: [500, 5500, 15700],
+        dialog: {
+            Japanese: [
+                "先生、言ってくれたよね。",
+                "今、この瞬間が、これからもずっと……。",
+                "私を支えてくれる、って。"
+            ],
+            English: [
+                "You told me before, didn't you, Sensei?",
+                "'This moment, right now, will be what supports you...'",
+                "'...from now on, and forever.'"
+            ],
+            Chinese: [
+                "老师，你对我说过的，对吧？",
+                "“就是现在这个瞬间，从今往后，会一直……",
+                "……支撑着我”什么的。"
+            ]
+        }
+    },
+    {
+        time: 11000,
+        count: 2,
+        startTimes: [500, 3100],
+        dialog: {
+            Japanese: [
+                "だから……。",
+                "私も、幸せになるよ。"
+            ],
+            English: [
+                "And so...",
+                "I'm going to be happy, too."
+            ],
+            Chinese: [
+                "所以呀……。",
+                "我啊，也一定会变得幸福的哦。"
+            ]
+        }
+    }
 ];
 
 
@@ -439,15 +439,15 @@ function init() {
 				if (bgm) bgm.volume = bgmvolume;
 			}
 		},
-		setPaused: function (isPaused) {
-			if (bgm) {
-				if (isPaused) {
-					setTimeout(() => { bgm.volume = 0; }, 200);
-				} else {
-					setTimeout(() => { bgm.volume = bgmvolume; }, 200);
+		setPaused: function(isPaused) {
+				if (bgm) {
+					if (isPaused) {
+						setTimeout(() => { bgm.volume = 0; }, 200);
+					} else {
+						setTimeout(() => { bgm.volume = bgmvolume; }, 200);
+					}
 				}
 			}
-		}
 	};
 
 	textbox = document.getElementById('textbox');
