@@ -44,7 +44,8 @@ const subtitleLocales = {
 	Chinese: 'zh-Hans',
 	TraditionalChinese: 'zh-Hant',
 	Japanese: 'ja',
-	Korean: 'ko'
+	Korean: 'ko',
+	Thai: 'th'
 };
 
 const CHARACTER = 'CH0294';
@@ -57,25 +58,26 @@ const AUDIO_DETAIL = [
     {
         dialog: {
             Japanese: [
-                "ねえ、先生。",
+                "ねぇ、先生。",
                 "私……この景色を先生と見られてよかった。"
             ],
             English: [
-                "Hey, Sensei~",
-                "I'm so, so glad... that I could see this view with you."
+                "Um, Sensei.",
+                "I'm...glad that I was able to watch this scenery with you."
             ],
             Chinese: [
-                "呐，老师。",
-                "能和老师一起看到这样的风景……真是太好了。"
+                "老师……",
+                "我真的很高兴……能跟老师一起看到这样的景色……嘿嘿。"
             ],
             TraditionalChinese: [
-                "吶，老師。",
+                "那個，老師。",
                 "我……能跟老師一起看見這片景色，真是太好了。"
             ],
             Korean: [
-                "있잖아, 선생님.",
+                "저기, 선생님.",
                 "나…… 이런 광경을 선생님과 볼 수 있어서 다행이야."
-            ]
+            ],
+            Thai: ["เอ่อ... คุณครู","ฉัน... ดีใจจัง ที่ได้มาเห็นวิวแบบนี้ กับคุณครู"]
         }
     },
     {
@@ -86,14 +88,14 @@ const AUDIO_DETAIL = [
                 "不安も――まだ、残ってる。"
             ],
             English: [
-                "My worries...",
-                "My anxieties about the future...",
-                "All my fears... they're all still here."
+                "Concerns...",
+                "Worries...",
+                "The anxiety... It's still there."
             ],
             Chinese: [
-                "虽然那些烦心事——",
-                "对未来的迷茫——",
-                "还有不安——都还存在着。"
+                "我担心的那些事情……",
+                "关于未来的烦恼……",
+                "和不安……都还没有消失。"
             ],
             TraditionalChinese: [
                 "雖然擔心的事情……",
@@ -104,7 +106,8 @@ const AUDIO_DETAIL = [
                 "걱정거리도……",
                 "앞으로의 고민도……",
                 "불안함도…… 아직은, 남아 있어."
-            ]
+            ],
+            Thai: ["ทั้งเรื่องกลุ้มใจ...","ทั้งเรื่องกังวลในอนาคต...","และความไม่แน่ใจ... ถึงตอนนี้มันจะยังอยู่"]
         }
     },
     {
@@ -115,25 +118,26 @@ const AUDIO_DETAIL = [
                 "……全部、ちっぽけなことなんじゃないかなって。そんな気がするんだ。"
             ],
             English: [
-                "But...",
-                "When I see a sky full of stars like this...",
-                "...it makes everything else feel so small, so insignificant."
+                "But still...",
+                "When I stare at the sky full of stars like this...",
+                "...perhaps it's all trivial. That's what it feels like."
             ],
             Chinese: [
-                "但是啊……。",
-                "看到这样的星空之后呢……",
-                "……就会觉得，这些烦恼是不是都变得微不足道了呢……"
+                "但是……",
+                "看着这片满天繁星的天空，",
+                "我忽然觉得……一切都很渺小。"
             ],
             TraditionalChinese: [
                 "不過……",
                 "當我看著這片星空……",
-                "……就會覺得，這些煩惱是不是都變得微不足道了呢……"
+                "就會有種一切好像都只是微不足道的小事……這樣的感覺。"
             ],
             Korean: [
-                "하지만……",
+                "그래도……",
                 "이렇게 별이 가득한 하늘을 보고 있으면,",
-                "다른 모든 것이 너무 작고 중요하지 않은 것처럼 느껴집니다."
-            ]
+                "……전부, 사소한 게 아닐까 하고. 그런 생각이 들어."
+            ],
+            Thai: ["แต่พอฉัน...","มองท้องฟ้าที่เต็มไปด้วย ดวงดาวแบบนี้","ทุกอย่างมันก็เหมือน... เป็นเรื่องเล็กน้อยไปเลยละ ฉันคิดแบบนั้นน่ะ"]
         }
     },
     {
@@ -144,14 +148,14 @@ const AUDIO_DETAIL = [
                 "私を支えてくれる、って。"
             ],
             English: [
-                "Sensei, you told me, didn't you?",
-                "This moment, right now... will be what supports you...",
-                "'...from now on, and forever.'"
+                "Sensei, you told me this before.",
+                "That this exact moment will continue to...",
+                "...hold me in the future. Yeah."
             ],
             Chinese: [
-                "老师，您对我说过的吧。",
-                "说此时此刻的这份感受，今后也会一直……",
-                "成为支撑我的力量。"
+                "老师，你说过的吧。",
+                "现在，这个瞬间，今后也会一直……",
+                "支撑着我。"
             ],
             TraditionalChinese: [
                 "老師，你之前跟我說過對吧。",
@@ -162,7 +166,8 @@ const AUDIO_DETAIL = [
                 "선생님, 말해 줬었지.",
                 "지금의 이 순간이, 앞으로도 계속……",
                 "나를 지탱해 줄 거라고. 응."
-            ]
+            ],
+            Thai: ["คุณครู เคยบอกฉันไว้ว่า","ช่วงเวลาในขณะนี้ จะคอยสนับสนุน...","ตัวฉันในอนาคตไปเรื่อยๆ อื้อ"]
         }
     },
     {
@@ -173,20 +178,21 @@ const AUDIO_DETAIL = [
             ],
             English: [
                 "So...",
-                "I'm going to find my happiness, too."
+                "I'll be happy too."
             ],
             Chinese: [
-                "所以说……。",
-                "我也……一定会幸福的吧。"
+                "所以……",
+                "我，也会幸福的。"
             ],
             TraditionalChinese: [
-                "所以說……。",
+                "所以……",
                 "我也會，變得幸福的。"
             ],
             Korean: [
-                "그럼...",
+                "그러니까……",
                 "나도, 행복해질 거야."
-            ]
+            ],
+            Thai: ["เพราะงั้น...","ฉันเองก็จะมีความสุขขึ้นนะ"]
         }
     }
 ];
@@ -298,7 +304,7 @@ function playVoiceline() {
 			track.play().catch(finish);
 
 			if (dialogBox) {
-				textbox.textContent = dialog[window.selectedLanguage][index];
+				textbox.textContent = getSubtitleText(dialog, window.selectedLanguage, index);
 				textbox.style.opacity = 1;
 			}
 		},
@@ -468,6 +474,16 @@ function setMouse(event) {
 	return { x: ax - canvas.width * positionX, y: ay - canvas.height * positionY };
 }
 
+function getSubtitleText(dialog, language, index) {
+	let text = dialog?.[language]?.[index];
+	if (text == null && language === 'Thai') {
+		language = 'English';
+		text = dialog?.[language]?.[index];
+	}
+	textbox.lang = subtitleLocales[language];
+	return text ?? "";
+}
+
 function updateSubtitleLanguage() {
 	let language = subtitleLanguagePreference;
 	if (language === 'auto') {
@@ -481,6 +497,8 @@ function updateSubtitleLanguage() {
 			language = 'Japanese';
 		} else if (primary === 'ko' || primary === 'korean' || primary === 'koreana') {
 			language = 'Korean';
+		} else if (primary === 'th' || primary === 'thai') {
+			language = 'Thai';
 		} else {
 			language = 'English';
 		}
@@ -490,7 +508,7 @@ function updateSubtitleLanguage() {
 	window.selectedLanguage = language;
 	textbox.lang = subtitleLocales[language];
 	const clip = currentTracks.at(-1);
-	if (dialogBox && clip) textbox.textContent = clip.dialog[language][clip.index];
+	if (dialogBox && clip) textbox.textContent = getSubtitleText(clip.dialog, language, clip.index);
 }
 
 function init() {
